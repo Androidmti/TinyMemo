@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/create_memo"
+        android:icon="@drawable/document_add_icon"
+        android:title="@string/create_memo"
+        android:showAsAction="ifRoom" />
+    
+    <item
+        android:id="@+id/create_folder"
+        android:icon="@drawable/folder_add_icon"
+        android:title="@string/create_folder"
+        android:showAsAction="ifRoom" />
+    
+    <item
+        android:id="@+id/action_about"
+        android:orderInCategory="100"
+        android:title="@string/action_about"
+        android:showAsAction="never" />
+
+</menu>

@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tinymemo="http://schemas.android.com/apk/res-auto" >
+
+
+    
+   	<item
+        android:id="@+id/action_close_no_save"
+        android:orderInCategory="10"
+        android:title="@string/action_close_no_save"
+        tinymemo:showAsAction="never"/>
+    <item
+        android:id="@+id/save_memo"
+        android:icon="@drawable/save_icon"
+        android:title="@string/save_memo"
+        tinymemo:showAsAction="always"/>
+
+</menu>
